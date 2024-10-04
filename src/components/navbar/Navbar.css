@@ -1,0 +1,67 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #282c34;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 1300px;
+    z-index: 1000;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .link:hover {
+    color: #61dafb;
+  }
+  
+  .dark-mode-toggle {
+    background-color: #61dafb;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #282c34;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #21a1f1;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #1f1f1f;
+  }
+  
+  body.dark-mode .link {
+    color: #fff;
+  }
+  
+  body.dark-mode .link:hover {
+    color: #61dafb;
+  }
+  

@@ -1,0 +1,27 @@
+/* src/components/HomePage.css */
+.homepage-container {
+    padding: 2rem;
+    margin-top: 80px; /* Ajusta para que no se superponga con la Navbar */
+    text-align: center;
+  }
+  
+  .homepage-container h1 {
+    font-size: 2.5rem;
+    color: #282c34;
+  }
+  
+  .homepage-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  
+  body.dark-mode .homepage-container h1 {
+    color: #fff;
+  }
+  
+  body.dark-mode .homepage-container p {
+    color: #ccc;
+  }
+  
