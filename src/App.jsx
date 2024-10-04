@@ -11,7 +11,7 @@ const App = () => {
       {/* Define aquí tus rutas si tienes más páginas */}
       <Routes>
         {/* Aquí puedes agregar más rutas como About, Projects, Contact */}
-        <Route path="/" element={<HomePage />} />
+        <Route path="/WebPortfolio" element={<HomePage />} />
         <Route path="/about" element={<div>Sobre mí</div>} />
         <Route path="/projects" element={<div>Proyectos</div>} />
         <Route path="/contact" element={<div>Contacto</div>} />

@@ -7,21 +7,22 @@
   
   .homepage-container h1 {
     font-size: 2.5rem;
-    color: #282c34;
+    color: #020202; /* Cambia el color del h1 a azul */
   }
   
   .homepage-container p {
     font-size: 1.2rem;
-    color: #666;
+    color: #070707; /* Cambia el color de los párrafos a azul oscuro */
     margin-top: 1rem;
     line-height: 1.5;
   }
   
-  body.dark-mode .homepage-container h1 {
-    color: #fff;
+  /* Estilos para el modo oscuro */
+body.dark-mode .homepage-container h1 {
+    color: #21a1f1; /* Cambia el color del h1 en modo oscuro */
   }
   
   body.dark-mode .homepage-container p {
-    color: #ccc;
+    color: #21a1f1; /* Cambia el color de los párrafos en modo oscuro */
   }
   
