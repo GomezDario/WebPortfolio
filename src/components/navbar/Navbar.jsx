@@ -23,12 +23,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="brand">
-        <Link to="/" className="link">MiPortfolio</Link>
+        <Link to="/WebPortfolio" className="link">MiPortfolio</Link>
       </div>
       <ul className="nav-links">
-        <li>
-          <Link to="/about" className="link">Sobre mí</Link>
-        </li>
         <li>
           <Link to="/projects" className="link">Proyectos</Link>
         </li>
